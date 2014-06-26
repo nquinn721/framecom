@@ -1,0 +1,75 @@
+<?php
+define('BASE', '/framecom' );
+define('PHP_BASE', $_SERVER['DOCUMENT_ROOT'] . BASE);
+include (PHP_BASE . '/includes/header.php');
+$page = 'home';
+?>
+	<div class="section welcome-section">
+		<div class="container">
+			<div class="col-md-9">
+				<div class="welcome">
+					<h1>Welcome to Framecom</h1>
+					Your source for high quality manufactured wood components. We are commited to helping your construction project run<br>
+					smoothly and efficiently from the first cut to the last nail. From corbels to handrails, we know components and we know<br>
+					how to help your project run more efficiently and with a lot less waste. If you'd like to learn how we can help you<br>
+					streamline and clean up your construction site, give us a call at 408-592-6187<br>
+				</div>
+				<div class="quote">
+					"We build and install custom arbors, bridges and trellises on our upscale landscape projects. Framecom, with their C & C<br>
+					machine have been able to create very intricate and detailed wooden elements for our job"<br>
+					<br>
+					Michael Bonfonte, <br>
+					Bonfonte Nurseries, Inc.
+				</div>	
+			</div>
+			
+			<div class="col-md-3">
+				<img src="public/img/triangle.png" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="section image-overlay-section">
+		<img src="public/img/bg2.jpg" alt="">
+		<div class="overlay"></div>
+		<div class="container saw">
+			<div class="col-md-2 col-md-push-1">
+				<img src="public/img/saw.png" alt="">				
+			</div>
+			<div class="col-md-8 col-md-push-1">
+				<h1>CNC ROUTER - DESIGN & MILLING</h1>				
+			</div>
+			<div class="col-md-2">
+				<img src="public/img/learnmore.png" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="section videos clearfix">
+		<div class="body col-xs-4 col-xs-push-7">
+			<div class="title">
+				<h1>Product Vidoes</h1>
+			</div>
+			<div class="text">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at suscipit nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas quis risus ultricies neque aliquam pulvinar id in justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				<img src="public/img/learnmore.png" id="learnmore" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="section bottom-section">
+		<div class="container">
+			<div class='col-xs-2'>
+				<img src="public/img/components.png" alt="">
+			</div>
+			<div class="col-xs-8">
+				<h1>MANUFAC WELCOME TO FRAMECOM</h1>
+			</div>
+			<div class="col-xs-2">
+				<img src="public/img/learnmore.png" id="learnmore" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="section contact">
+		
+	</div>
+<?php include(PHP_BASE . '/includes/footer.php');?>
