@@ -29,7 +29,7 @@ div.navbar-background {
     padding-bottom: 0;
     width: 100%;
     z-index: 999;
-    padding-bottom: 1px;
+    padding-bottom: 10px;
 }
 .navbar-default {
     background: none;
@@ -94,7 +94,7 @@ div.section.bottom-section input {
 }
 div.logo {
     overflow: hidden;
-    margin-top: -17px;
+    margin-top: -9px;
 }
 div.logo img {
     width: 250px;
@@ -160,8 +160,8 @@ div.map  {
     padding-top: 50px;
 }
 ul.nav.navbar-nav.navbar-right {
-    font-size: 28px;
-    padding-top: 22px;
+    font-size: 24px;
+    padding-top: 15px;
 }
 
 ul.nav.navbar-nav.navbar-right li a {
@@ -197,6 +197,7 @@ div.container.saw {
     position: absolute;
     top: -23px;
     right: 0;
+    font-family: serif;
 }
 .mini-nav li a {
     color: #e2c091;
@@ -217,7 +218,7 @@ div.container.saw {
     width: 670px;
     margin-left: -300px;
     padding: 10px;
-    padding-top: 16px;
+    padding-top: 36px;
 }
 .hoverDown .img img {
     width: 134px;
