@@ -284,7 +284,7 @@ div.section.design.clearfix {
     background: url(../img/designbg.png);
     background-size: 100% 100%;
 }
-div.section.design.clearfix .container > div:first-child img {
+div.section.design.clearfix .container > div:last-child img {
     width: 100%;
 }
 .videos{
@@ -294,11 +294,11 @@ div.section.design.clearfix .container > div:first-child img {
 .videos .learnmore{
     width: 30%;
 }
-.videos .container div:first-child img {
+.videos .container > div:last-child img {
     width: 350px;
     margin-top: 25px;
 }
-.bottom-section .container > div:first-child img {
+.bottom-section .container > div:last-child img {
     width: 175px;
 }
 .bottom-section .container > div:nth-child(2) h1 {
@@ -319,5 +319,8 @@ div.section.design.clearfix .container > div:first-child img {
     }
     .display {
         margin-top: 50px;
+    }
+    .bottom-section .container > div:first-child img {
+        width: 186%;
     }
 }
