@@ -82,13 +82,13 @@ $page = 'home';
 	</div>
 	<div class="section bottom-section">
 		<div class="container">
-			<div class='col-md-2'>
+			<div class='col-xs-2'>
 				<img src="public/img/components.png" alt="">
 			</div>
-			<div class="col-md-8">
+			<div class="col-xs-8">
 				<h1>FURNITURE</h1>
 			</div>
-			<div class="col-md-2">
+			<div class="col-xs-2">
 				<img src="public/img/learnmore.png" id="learnmore" alt="">
 			</div>
 		</div>

@@ -312,4 +312,7 @@ div.section.design.clearfix .container > div:first-child img {
     ul.nav.navbar-right.mini-nav {
         font-size: 10px;
     }
+    .bottom-section .container > div:nth-child(2) h1 {
+        padding-left: 100px;
+    }
 }
