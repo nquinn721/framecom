@@ -58,21 +58,26 @@ $page = 'home';
 			</div>
 		</div>
 	</div>
-	<div class="section videos clearfix">
+	<div class="section design clearfix">
 		<div class="container">
-			<div class="body col-xs-4 col-xs-push-7">
+			<div class="col-xs-7">
+				<img src="public/img/ipad.png" alt="">
+			</div>
+			<div class=" body col-xs-5">
 				<div class="title">
-					<h1>Product Vidoes</h1>
+					<h1>Let our design team help..</h1>
 				</div>
 				<div class="text">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at suscipit nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas quis risus ultricies neque aliquam pulvinar id in justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-					<br>
+					<br><br>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					<img src="public/img/learnmore.png" id="learnmore" alt="">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					<br><br>
+					<img src="public/img/learnmore.png" class="learnmore" alt="">
 				</div>
-			</div>	
+			</div>
 		</div>
-		
+			
 	</div>
 	<div class="section bottom-section">
 		<div class="container">
@@ -80,7 +85,7 @@ $page = 'home';
 				<img src="public/img/components.png" alt="">
 			</div>
 			<div class="col-xs-8">
-				<h1>MANUFAC WELCOME TO FRAMECOM</h1>
+				<h1>FURNITURE</h1>
 			</div>
 			<div class="col-xs-2">
 				<img src="public/img/learnmore.png" id="learnmore" alt="">
