@@ -10,8 +10,8 @@ html, body{padding:0;margin:0;}
     margin-bottom: -10px;
 }
 div.shadow {
-    box-shadow: inset 0 55px 93px 9px #444;
-    height: 500px;
+    box-shadow: inset 0 44px 60px 17px #444;
+    height: 5000px;
     position: fixed;
     top: 0;
     width: 120%;
