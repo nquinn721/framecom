@@ -18,10 +18,16 @@ include (PHP_BASE . '/lib/template.php');
 			<img src="<?php echo BASE?>/public/img/house1.jpg" class="none" alt="">	
 			<img src="<?php echo BASE?>/public/img/house2.jpg" class="none" alt="">
 			<img src="<?php echo BASE?>/public/img/house3.jpg" class="none" alt="">
-			<img src="<?php echo BASE?>/public/img/house4.jpg" class="none" alt="">
-			<img src="<?php echo BASE?>/public/img/house5.jpg" class="none" alt="">
 			<img src="<?php echo BASE?>/public/img/house6.jpg" class="none" alt="">
 			<img src="<?php echo BASE?>/public/img/house7.jpg" class="none" alt="">
+		</div>
+		<div class="sliderArrows">
+			<div class="left">
+				<i class="fa fa-caret-left"></i>
+			</div>
+			<div class="right">
+				<i class="fa fa-caret-right"></i>
+			</div>
 		</div>
 	</div>
 	

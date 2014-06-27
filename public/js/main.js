@@ -58,7 +58,7 @@ function createSlideShow () {
 
 
 	setTimeout(function () {
-		slideRight();
+		slideLeft();
 
 		createSlideShow();
 	}, 5000)
