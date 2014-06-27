@@ -246,7 +246,7 @@ div.hoverDownInner {
     text-decoration: none;
 }
 .hoverDown a:hover{
-    color:black;
+    color:rgb(150, 107, 42) !important;
 }
 div.triangle {
     width: 0;
