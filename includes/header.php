@@ -13,6 +13,7 @@ include (PHP_BASE . '/lib/template.php');
 </head>
 <body>
 <div class="header">
+	<div class="shadow"></div>
 	<div class="header-image-contain">
 		<div class="header-image">
 			<img src="<?php echo BASE?>/public/img/house1.jpg" class="none" alt="">	
@@ -53,9 +54,7 @@ include (PHP_BASE . '/lib/template.php');
 			      </button>
 			      <a class="navbar-brand" href="#">
 				      <div class='logo'>
-				      	<div class="logo-shadow">
-					      	<img src="public/img/logo.png" alt="">			      				      		
-				      	</div>
+				      	<img src="public/img/logo.png" alt="">			      				      		
 				      </div>
 			      </a>
 			    </div>
