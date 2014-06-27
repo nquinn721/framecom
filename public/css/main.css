@@ -20,7 +20,7 @@ div.sliderArrows {
 }
 div.scroll-down {
     position: absolute;
-    bottom: 200px;
+    bottom: 100px;
     width: 100%;
     text-align: center;
 }
@@ -31,26 +31,34 @@ div.scroll-down img {
     width: 75px;
     opacity: .8;
 }
-.sliderArrows i{display: none;}
-.sliderArrows > div:hover i{
+.sliderArrows img{
+    display: none;
+    height: 50px;
+}
+.sliderArrows > div:hover img{
     display: inline-block;
-    cursor: pointer;
+    
+}
+.sliderArrows > div:hover{
+    background: rgba(0,0,0,.5);
 }
 div.sliderArrows .right {
     float: right;
     padding-right: 20px;
     padding-top:400px;
-    width: 2%;
+    width: 4%;
     height: 100%;
     padding-left: 20px;
+    cursor: pointer;
 }
 .sliderArrows .left {
     float: left;
     padding-top:400px;
-    padding-left: 20px;
-    width: 2%;
+    padding-left: 10px;
+    width: 4%;
     height: 100%;
     padding-right: 20px;
+    cursor: pointer;
 }
 .header-image-contain{
     width:100%;

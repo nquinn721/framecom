@@ -24,10 +24,10 @@ include (PHP_BASE . '/lib/template.php');
 	</div>
 	<div class="sliderArrows">
 		<div class="left">
-			<i class="fa fa-caret-left"></i>
+			<img src="<?php echo BASE?>/public/img/left.png" alt="">
 		</div>
 		<div class="right">
-			<i class="fa fa-caret-right"></i>
+			<img src="<?php echo BASE?>/public/img/right.png" alt="">
 		</div>
 	</div>
 	<div class="scroll-down">

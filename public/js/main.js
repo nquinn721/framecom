@@ -61,7 +61,7 @@ function createSlideShow () {
 
 
 		// Slider Events
-		$('.sliderArrows i').on('click', slide);
+		$('.sliderArrows > div').on('click', slide);
 
 		initSlideShow = true;
 	}
@@ -76,7 +76,7 @@ function createSlideShow () {
 
 }
 function slide () {
-	if($(this).parent().hasClass('left'))
+	if($(this).hasClass('left'))
 		slideRight(true);
 	else slideLeft(true);
 }
