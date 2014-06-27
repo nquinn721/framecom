@@ -13,10 +13,18 @@ include (PHP_BASE . '/lib/template.php');
 </head>
 <body>
 <div class="header">
-	<img src="<?php echo BASE?>/public/img/lg.png" alt="" class="img">
+	<div class="header-image-contain">
+		<div class="header-image">
+			<img src="<?php echo BASE?>/public/img/lg.png" alt="">	
+			<img src="<?php echo BASE?>/public/img/house1.jpg" class="none" alt="">	
+			<img src="<?php echo BASE?>/public/img/house2.jpg" class="none" alt="">
+		</div>
+	</div>
+	
 	<div id="transform">
 		<img src="<?php echo BASE?>/public/img/transformYourSpace.png" alt="">
-		<img src="<?php echo BASE?>/public/img/viewthespace.png" alt="">	
+		<img src="<?php echo BASE?>/public/img/viewthespace.png"  alt="">	
+		
 	</div>
 	<div class="navbar-background">
 		<div class="container">
