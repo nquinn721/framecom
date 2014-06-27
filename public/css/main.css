@@ -304,15 +304,20 @@ div.section.design.clearfix .container > div:first-child img {
 .bottom-section .container > div:nth-child(2) h1 {
     padding-left: 50px;
 }
+.right{float: right;}
 @media(max-width: 1000px){
     div.logo img {
         width: 150px;
     }
+    .right{float: none;}
     ul.nav.navbar-nav.navbar-right{font-size:15px;}
     ul.nav.navbar-right.mini-nav {
         font-size: 10px;
     }
     .bottom-section .container > div:nth-child(2) h1 {
         padding-left: 100px;
+    }
+    .display {
+        margin-top: 50px;
     }
 }

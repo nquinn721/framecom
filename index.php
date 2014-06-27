@@ -26,10 +26,7 @@ $page = 'home';
 	</div>
 	<div class="section map clearfix">
 		<div class="container">
-			<div class="col-md-7">
-				<img src="public/img/iphone1.png" alt="">
-			</div>
-			<div class=" body col-md-5">
+			<div class=" body col-md-5 right">
 				<div class="title">
 					<h1>Need something stop by..</h1>
 				</div>
@@ -41,6 +38,9 @@ $page = 'home';
 					<br><br>
 					<img src="public/img/needdirections.png" class="learnmore" alt="">
 				</div>
+			</div>
+			<div class="col-md-7 display">
+				<img src="public/img/iphone1.png" alt="">
 			</div>
 		</div>
 			
@@ -61,10 +61,7 @@ $page = 'home';
 	</div>
 	<div class="section design clearfix">
 		<div class="container">
-			<div class="col-md-7">
-				<img src="public/img/ipad.png" alt="">
-			</div>
-			<div class=" body col-md-5">
+			<div class=" body col-md-5 right">
 				<div class="title">
 					<h1>Let our design team help..</h1>
 				</div>
@@ -76,6 +73,9 @@ $page = 'home';
 					<br><br>
 					<img src="public/img/learnmore.png" class="learnmore" alt="">
 				</div>
+			</div>
+			<div class="col-md-7 display">
+				<img src="public/img/ipad.png" alt="">
 			</div>
 		</div>
 			
@@ -95,10 +95,7 @@ $page = 'home';
 	</div>
 	<div class="section videos clearfix">
 		<div class="container">
-			<div class="col-md-7">
-				<img src="public/img/ipad3.png" alt="">
-			</div>
-			<div class=" body col-md-5">
+			<div class=" body col-md-5 right">
 				<div class="title">
 					<h1>Product Videos</h1>
 				</div>
@@ -110,6 +107,9 @@ $page = 'home';
 					<br><br>
 					<img src="public/img/learnmore.png" class="learnmore" alt="">
 				</div>
+			</div>
+			<div class="col-md-7 display">
+				<img src="public/img/ipad3.png" alt="">
 			</div>
 		</div>
 			
