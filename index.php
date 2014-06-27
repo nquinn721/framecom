@@ -26,7 +26,10 @@ $page = 'home';
 	</div>
 	<div class="section map clearfix">
 		<div class="container">
-			<div class=" body col-xs-5 col-xs-push-7">
+			<div class="col-xs-7">
+				<img src="public/img/iphone1.png" alt="">
+			</div>
+			<div class=" body col-xs-5">
 				<div class="title">
 					<h1>Need something stop by..</h1>
 				</div>
