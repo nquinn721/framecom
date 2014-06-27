@@ -13,10 +13,16 @@ $(document).on('scroll', function (e) {
 	}
 })
 
+var logo = $('.logo').clone();
+$('body').append(logo.css({
+	position : 'fixed',
+	top : 28,
+	left : $('.logo').offset().left
+}));
+
 
 function changeBG (reverse, start) {
 	var start = start || 0;
-	console.log(start);
 	if(start < 10){
 		n.animate({'opacity' : (reverse ? 0 : 1)}, 800);
 	}
