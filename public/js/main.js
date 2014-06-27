@@ -2,7 +2,9 @@ var changed = false,
 	cleared = true,
 	n = $('.navbar-background'),
 	header = $('.header-image'),
-	contain = $('.header-image-contain');
+	contain = $('.header-image-contain'),
+	initSlideShow = false,
+	sliderTimer;
 
 
 setLogo();
@@ -53,16 +55,30 @@ function fixLogo () {
 
 function createSlideShow () {
 		fixSliderSizes();
+
+	if(!initSlideShow){
 		header.find('img.none').removeClass('none');
 
 
+		// Slider Events
+		$('.sliderArrows i').on('click', slide);
 
-	setTimeout(function () {
+		initSlideShow = true;
+	}
+
+
+
+	sliderTimer = setTimeout(function () {
 		slideLeft();
 
 		createSlideShow();
-	}, 5000)
+	}, 5000);
 
+}
+function slide () {
+	if($(this).parent().hasClass('left'))
+		slideRight(true);
+	else slideLeft(true);
 }
 function setSliderContainHeight (){
 	contain.height($(window).height());
@@ -73,18 +89,24 @@ function fixSliderSizes () {
 	}).end().width($(header.find('img')[0]).width() * header.find('img').length + 100)
 
 }
-function slideLeft () {
+function slideLeft (restartTimer) {
 	header.animate({
 		marginLeft : -contain.width() - 5
-	}, 1000, function () {
+	}, function () {
 		$(this).css('margin-left', 0).find('img').first()
 		.appendTo(header);
 	})
+	if(restartTimer)restartTimerNow();
 }
-function slideRight () {
+function slideRight (restartTimer) {
 	header.find('img').last().prependTo(header);
 	header.css('margin-left' , -contain.width())
 		.animate({
 			marginLeft : 0
 		})
+	if(restartTimer)restartTimerNow();
+}
+function restartTimerNow () {
+	clearTimeout(sliderTimer);
+	createSlideShow();
 }

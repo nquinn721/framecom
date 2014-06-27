@@ -21,14 +21,17 @@ include (PHP_BASE . '/lib/template.php');
 			<img src="<?php echo BASE?>/public/img/house6.jpg" class="none" alt="">
 			<img src="<?php echo BASE?>/public/img/house7.jpg" class="none" alt="">
 		</div>
-		<div class="sliderArrows">
-			<div class="left">
-				<i class="fa fa-caret-left"></i>
-			</div>
-			<div class="right">
-				<i class="fa fa-caret-right"></i>
-			</div>
+	</div>
+	<div class="sliderArrows">
+		<div class="left">
+			<i class="fa fa-caret-left"></i>
 		</div>
+		<div class="right">
+			<i class="fa fa-caret-right"></i>
+		</div>
+	</div>
+	<div class="scroll-down">
+		<img src="<?php echo BASE?>/public/img/scroll.png" alt="">
 	</div>
 	
 	<div id="transform">
