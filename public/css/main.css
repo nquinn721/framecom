@@ -298,6 +298,12 @@ div.section.design.clearfix .container > div:first-child img {
     width: 350px;
     margin-top: 25px;
 }
+.bottom-section .container > div:first-child img {
+    width: 175px;
+}
+.bottom-section .container > div:nth-child(2) h1 {
+    padding-left: 50px;
+}
 @media(max-width: 1000px){
     div.logo img {
         width: 150px;
