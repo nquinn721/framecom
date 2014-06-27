@@ -15,9 +15,13 @@ include (PHP_BASE . '/lib/template.php');
 <div class="header">
 	<div class="header-image-contain">
 		<div class="header-image">
-			<img src="<?php echo BASE?>/public/img/lg.png" alt="">	
 			<img src="<?php echo BASE?>/public/img/house1.jpg" class="none" alt="">	
 			<img src="<?php echo BASE?>/public/img/house2.jpg" class="none" alt="">
+			<img src="<?php echo BASE?>/public/img/house3.jpg" class="none" alt="">
+			<img src="<?php echo BASE?>/public/img/house4.jpg" class="none" alt="">
+			<img src="<?php echo BASE?>/public/img/house5.jpg" class="none" alt="">
+			<img src="<?php echo BASE?>/public/img/house6.jpg" class="none" alt="">
+			<img src="<?php echo BASE?>/public/img/house7.jpg" class="none" alt="">
 		</div>
 	</div>
 	

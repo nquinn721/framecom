@@ -6,6 +6,7 @@ var changed = false,
 
 
 setLogo();
+setSliderContainHeight();
 createSlideShow();
 
 $(document).on('scroll', function (e) {
@@ -19,9 +20,7 @@ $(document).on('scroll', function (e) {
 	}
 })
 $(window).on('resize', function () {
-	header.find('img').each(function () {
-		$(this).width(contain.width());	
-	}).end().width($(header.find('img')[0]).width() * header.find('img').length + 100)
+	fixSliderSizes();
 	fixLogo();
 })
 
@@ -53,26 +52,39 @@ function fixLogo () {
 }
 
 function createSlideShow () {
-		header.find('img').each(function () {
-			$(this).width(contain.width());
-		});
-		header.width($(header.find('img')[0]).width() * header.find('img').length + 100)
-			.find('img.none').removeClass('none');
+		fixSliderSizes();
+		header.find('img.none').removeClass('none');
 
 
 
 	setTimeout(function () {
-		header.animate({
-			marginLeft : -contain.width() - 5
-		}, 1000, function () {
-			$(this).css('margin-left', 0).find('img').first()
-			.appendTo(header);
-		})
-
-		
-
+		slideRight();
 
 		createSlideShow();
 	}, 5000)
 
+}
+function setSliderContainHeight (){
+	contain.height($(window).height());
+}
+function fixSliderSizes () {
+	header.find('img').each(function () {
+		$(this).width(contain.width()).height(contain.height());
+	}).end().width($(header.find('img')[0]).width() * header.find('img').length + 100)
+
+}
+function slideLeft () {
+	header.animate({
+		marginLeft : -contain.width() - 5
+	}, 1000, function () {
+		$(this).css('margin-left', 0).find('img').first()
+		.appendTo(header);
+	})
+}
+function slideRight () {
+	header.find('img').last().prependTo(header);
+	header.css('margin-left' , -contain.width())
+		.animate({
+			marginLeft : 0
+		})
 }
