@@ -20,7 +20,7 @@ div.sliderArrows {
 }
 div.scroll-down {
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
     width: 100%;
     text-align: center;
 }
@@ -29,7 +29,7 @@ div.header {
 }
 div.scroll-down img {
     width: 75px;
-    opacity: .8;
+    opacity: .7;
 }
 .sliderArrows img{
     display: none;
