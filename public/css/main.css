@@ -151,7 +151,7 @@ div.middle form input:not([type=submit]) {
 div.map  {
     background: url(../img/iphone1bg.jpg);
     background-size: 100% 100%;
-    height: 429px;
+    min-height: 429px;
     padding-top: 50px;
 }
 ul.nav.navbar-nav.navbar-right {
@@ -293,4 +293,16 @@ div.section.design.clearfix .container > div:first-child img {
 }
 .videos .learnmore{
     width: 30%;
+}
+.videos .container div:first-child img {
+    width: 350px;
+}
+@media(max-width: 1000px){
+    div.logo img {
+        width: 150px;
+    }
+    ul.nav.navbar-nav.navbar-right{font-size:15px;}
+    ul.nav.navbar-right.mini-nav {
+        font-size: 10px;
+    }
 }
