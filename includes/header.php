@@ -6,6 +6,7 @@ include (PHP_BASE . '/lib/template.php');
 <html>
 <head>
 	<title>Framecom	</title>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="public/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="public/font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" href="public/css/main.css">

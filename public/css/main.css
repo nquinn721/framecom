@@ -29,7 +29,7 @@ div.navbar-background {
     padding-bottom: 0;
     width: 100%;
     z-index: 999;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 .navbar-default {
     background: none;
@@ -161,13 +161,13 @@ div.map  {
 }
 ul.nav.navbar-nav.navbar-right {
     font-size: 24px;
-    padding-top: 6px;
+    padding-top: 15px;
 }
 
 ul.nav.navbar-nav.navbar-right li a {
     padding-bottom: 0;
     margin-bottom: 0;
-    font-family: serif;
+    font-family: Oswald;
 }
 #transform img:first-child {
     width: 100%;
