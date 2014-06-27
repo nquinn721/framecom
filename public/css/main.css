@@ -44,7 +44,7 @@ div.navbar-background {
 div.quote {
     margin-top: 29px;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 div.overlay {
@@ -94,7 +94,7 @@ div.section.bottom-section input {
 }
 div.logo {
     overflow: hidden;
-    margin-top: -9px;
+    margin-top: -17px;
 }
 div.logo img {
     width: 250px;
@@ -197,7 +197,6 @@ div.container.saw {
     position: absolute;
     top: -23px;
     right: 0;
-    font-family: serif;
 }
 .mini-nav li a {
     color: #e2c091;
