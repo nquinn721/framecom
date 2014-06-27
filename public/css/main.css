@@ -305,6 +305,9 @@ div.section.design.clearfix .container > div:last-child img {
     padding-left: 50px;
 }
 .right{float: right;}
+.bottom-section .container > div:first-child img {
+    width: 108%;
+}
 @media(max-width: 1000px){
     div.logo img {
         width: 150px;
