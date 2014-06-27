@@ -53,7 +53,9 @@ include (PHP_BASE . '/lib/template.php');
 			      </button>
 			      <a class="navbar-brand" href="#">
 				      <div class='logo'>
-				      	<img src="public/img/logo.png" alt="">			      	
+				      	<div class="logo-shadow">
+					      	<img src="public/img/logo.png" alt="">			      				      		
+				      	</div>
 				      </div>
 			      </a>
 			    </div>
