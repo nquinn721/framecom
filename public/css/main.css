@@ -6,6 +6,7 @@ html, body{padding:0;margin:0;}
 }
 .img{
     width: 100%;
+    margin-bottom: -10px;
 }
 .image-overlay-section> img{
     width: 100%;
@@ -16,7 +17,8 @@ html, body{padding:0;margin:0;}
     overflow: hidden;
 }
 div.navbar-background {
-    background: transparent;
+    background: rgba(48, 9, 5, 0.75);
+    opacity:0;
     position: fixed;
     padding-top: 15px;
     top: 0;
@@ -39,10 +41,7 @@ div.quote {
     color: white;
     font-size: 12px;
 }
-div.triangle {
-    margin-top: -230px;
-    margin-left: 83%;
-}
+
 div.overlay {
     background: rgba(112, 37, 28, 0.48);
     height: 100%;
@@ -56,12 +55,10 @@ div.overlay {
     position: relative;
     z-index: 10;
 }
-.saw {
-    position: absolute;
-    top: 72px;
-    color: #aaa;
-}
- {
+.image-overlay-section{
+    background: url(../img/bg2.jpg);
+    background-size: 100% 100%;
+    padding-top: 50px;
 }
 .bottom-section {
     background: #d0d2cd;
@@ -101,7 +98,7 @@ img#learnmore {
 }
 #transform {
     position: absolute;
-    top: 300px;
+    top: 41%;
     right: 100px;
     width: 27%;
 }
@@ -115,8 +112,7 @@ img#learnmore {
 
 /** FOOTER **/
 .footer {
-    background: rgb(110,122,130);
-    color: white;
+    color: #6c3b2f;
 }
 .footer i.fa.fa-mobile {
     font-size: 17px;
@@ -128,6 +124,7 @@ img#learnmore {
 
 .footer div.top {
     margin-bottom: 20px;
+    font-size: 25px;
 }
 .footer a {
     color: white;
@@ -149,8 +146,11 @@ div.middle form input:not([type=submit]) {
     font-size: 10px;
     text-align: left;
 }
-div.map img {
-    width: 100%;
+div.map  {
+    background: url(../img/map.png);
+    background-size: 100% 100%;
+    height: 500px;
+    padding-top: 50px;
 }
 ul.nav.navbar-nav.navbar-right {
     font-size: 24px;
@@ -166,8 +166,8 @@ ul.nav.navbar-nav.navbar-right li a {
     width: 100%;
 }
 #transform img:last-child {
-    width: 200px;
-    margin-left: 21px;
+    width: 50%;
+    margin-left: 4%;
 }
 
 .saw > div:first-child img {
@@ -179,8 +179,10 @@ ul.nav.navbar-nav.navbar-right li a {
 .saw > div:last-child {
     padding-top: 57px;
 }
-
-.nav.navbar-nav.navbar-right a:hover, .nav.navbar-nav.navbar-right a.selected {
+div.container.saw {
+    color: #e3e5dc;
+}
+.nav.navbar-nav.navbar-right a:hover,ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â .nav.navbar-nav.navbar-right a.selected {
     color: #f7c89c;
 }
 
@@ -199,10 +201,72 @@ ul.nav.navbar-nav.navbar-right li a {
     background:none;
     color:#b7915d;
 }
-
-ul.hoverDown {
-    display: none;
-}
-ul.nav.navbar-nav.navbar-right li a:hover .hoverDown {
+.nav li:hover .hoverDown{
     display: block;
+}
+.hoverDown{
+    display: none;
+    position: absolute;
+    width: 670px;
+    margin-left: -300px;
+    padding: 10px;
+    padding-top: 13px;
+}
+.hoverDown .img img {
+    width: 115px;
+    height: 70px;
+}
+.hoverDown li {
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 17px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+ul.hoverDown .title {
+    font-size: 12px;
+}
+.hoverDown a {
+    color: white;
+}
+div.hoverDownInner {
+    background: #e4e6e1;
+    width: 101%;
+    height: 350px;
+}
+.hoverDown a {
+    color: rgb(58, 9, 9);
+}
+div.triangle {
+    width: 0;
+    margin-left: 55%;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #e4e6e1;
+}
+div.welcome h1 {
+    color: #6d3b2f;
+}
+div.quote .person {
+    color: #6d3b2f;
+}
+.learnmore{
+    width:50%;
+}
+div.upper-footer form input {
+    border: none;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 2px solid #6c3b2f;
+    width: 100%;
+    padding-left: 3%;
+}
+div.upper-footer form img {
+    width: 19%;
+}
+div.upper-footer form input:focus {
+    outline: 2px solid #6c3b2f;
 }

@@ -1,35 +1,18 @@
 		<div class="footer">
-			<div class="upper-footer">
-				<div class="left col-md-4">
-					<div class='top'>CONTACT US</div>
-					<div class="body">
+			<div class="upper-footer container">
 					
-					</div>
-					
-				</div>
-				<div class="middle col-md-4">
-					<div class='top'>CONTACT INFORMATION</div>
-					<form action="">
-						<input type="text" placeholder="NAME">
-						<input type="text" placeholder="ADDRESS">
-						<input type="text" placeholder="EMAIL">
-						<input type="text" placeholder="PHONE">
-						<input type="text" placeholder="DOG">
-						<input type="submit" value="ADD MY NAME">
-					</form>
-				</div>
-				<div class="right col-md-4">
-				
-				</div>
+				<div class='top'>CONTACT INFORMATION</div>
+				<form action="">
+					<input type="text" placeholder="NAME"><br>
+					<input type="text" placeholder="ADDRESS"><br>
+					<input type="text" placeholder="EMAIL"><br>
+					<input type="text" placeholder="PHONE"><br>
+					<input type="text" placeholder="DOG"><br>
+					<img src="public/img/connectwithus.png" alt="">
+				</form>
 
-			<div class="row"></div>
 		
 		</div>
-		<?php if($page === 'home'){?>
-			<div class="map">
-				<img src="public/img/map.png" alt="">
-			</div>
-		<?php }?>
 
 	</div>
 	

@@ -13,12 +13,11 @@ $(document).on('scroll', function (e) {
 	}
 })
 
+
 function changeBG (reverse, start) {
 	var start = start || 0;
 	console.log(start);
-	if(start < 8){
-		n.css('background' , 'rgba(48, 9, 5, 0.' + (reverse ? 6 - start : start) + ')');
-		start++;
-		setTimeout(function(){changeBG(reverse, start)}, 70);
+	if(start < 10){
+		n.animate({'opacity' : (reverse ? 0 : 1)}, 800);
 	}
 }

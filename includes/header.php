@@ -41,102 +41,138 @@ include (PHP_BASE . '/lib/template.php');
 			 
 			      
 			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="">
-			        	PRODUCTS
-			        	<i class="fa fa-caret-down"></i>
+			        <li>
+			        	<a href="">
+				        	PRODUCTS
+				        	<i class="fa fa-caret-down"></i>
+				        </a>
 			        	<ul class="hoverDown">
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/arch1.jpg" alt="">
-			        				</div>
-			        				<span class="title">ARCHES</span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
-			        		<li><a href="">
-			        				<div class="img">
-			        					<img src="<?php echo BASE?>/public/images/" alt="">
-			        				</div>
-			        				<span class="title"></span>
-			        			</a></li>
+			        		<div class="triangle"></div>
+			        		<div class="hoverDownInner">
+			        			
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/arch1.jpg" alt="">
+				        				</div>
+				        				<span class="title">ARCHES</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/pergola1.jpg" alt="">
+				        				</div>
+				        				<span class="title">PERGOLAS</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/corbel1.jpg" alt="">
+				        				</div>
+				        				<span class="title">CORBELS</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/handrail1.jpg" alt="">
+				        				</div>
+				        				<span class="title">HANDRAILS</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/milling1.jpg" alt="">
+				        				</div>
+				        				<span class="title">MILLING</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/plates1.jpg" alt="">
+				        				</div>
+				        				<span class="title">RADIUS PLATES</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/soffit1.jpg" alt="">
+				        				</div>
+				        				<span class="title">RADIUS SOFFITS</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/trim1.jpg" alt="">
+				        				</div>
+				        				<span class="title">RADIUS TRIM</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/shutter1.jpg" alt="">
+				        				</div>
+				        				<span class="title">SHUTTERS</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/stair1.jpg" alt="">
+				        				</div>
+				        				<span class="title">STAIRS</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/ftru_gallery/ftru6_sm.jpg" alt="">
+				        				</div>
+				        				<span class="title">FURNITURE</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/cellar1.jpg" alt="">
+				        				</div>
+				        				<span class="title">CELLARS</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/green1.jpg" alt="">
+				        				</div>
+				        				<span class="title">GREEN</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/process/cncimage.jpg" alt="">
+				        				</div>
+				        				<span class="title">CUSTOM</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="">
+				        				<div class="img">
+				        					<img src="<?php echo BASE?>/public/images/quotes1.jpg" alt="">
+				        				</div>
+				        				<span class="title">QUOTES</span>
+				        			</a>
+				        		</li>
+				        	</div>
 			        	</ul>
-			        </a></li>
+			        </li>
 			        <li><a href="">
 			        	IMAGINE
 			        	<i class="fa fa-caret-down"></i>
