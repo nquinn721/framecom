@@ -4,9 +4,13 @@ html, body{padding:0;margin:0;}
     padding: 20px;
     box-shadow: 0 5px 5px 3px black;
 }
+
 .img{
     width: 100%;
     margin-bottom: -10px;
+}
+ul.nav.navbar-nav.navbar-right i {
+    font-size: 25px;
 }
 .image-overlay-section> img{
     width: 100%;
@@ -215,9 +219,10 @@ div.container.saw {
     padding-top: 13px;
 }
 .hoverDown .img img {
-    width: 115px;
-    height: 70px;
+    width: 134px;
+    height: 87px;
 }
+
 .hoverDown li {
     float: left;
     list-style: none;
@@ -230,16 +235,18 @@ div.container.saw {
 ul.hoverDown .title {
     font-size: 12px;
 }
-.hoverDown a {
-    color: white;
-}
 div.hoverDownInner {
     background: #e4e6e1;
-    width: 101%;
-    height: 350px;
+    width: 115%;
+    height: 400px;
 }
+
 .hoverDown a {
     color: rgb(58, 9, 9);
+    text-decoration: none;
+}
+.hoverDown a:hover{
+    color:black;
 }
 div.triangle {
     width: 0;
@@ -308,6 +315,11 @@ div.section.design.clearfix .container > div:last-child img {
 .bottom-section .container > div:first-child img {
     width: 108%;
 }
+@media(max-width: 1400px){
+    ul.nav.navbar-nav.navbar-right i {
+        font-size: 15px;
+    }
+}
 @media(max-width: 1000px){
     div.logo img {
         width: 150px;
@@ -325,5 +337,15 @@ div.section.design.clearfix .container > div:last-child img {
     }
     .bottom-section .container > div:first-child img {
         width: 186%;
+    }
+    .img{margin-bottom: 0px;}
+    .hoverDown .img img {
+        width: 115px;
+        height: 70px;
+    }
+    div.hoverDownInner {
+        background: #e4e6e1;
+        width: 101%;
+        height: 350px;
     }
 }
